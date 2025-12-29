@@ -1,16 +1,12 @@
 {
-  "Type": "content",
-  "TextureSize": 32,
-  "Name": "Exchangable Jonas Parts",
-  "Version": "1.0.0",
-  "NetworkVersion": "1.0.0",
-  "Description": "Allows one to exchange jonas parts into some other jonas parts",
-  "Website": "",
-  "ModID": "exchangeJonasParts",
-  "Authors": ["jerjerje"],
-  "Contributors": [],
-  "Side": "Universal",
-  "RequiredOnClient": true,
-  "RequiredOnServer": true,
-  "Dependencies": {}
+  "type": "content",
+  "modid": "exchangeJonasParts",
+  "name": "Exchangable Jonas Parts",
+  "description": "Craft unneeded Jonas Parts into other Jonas Parts that are needed!",
+  "authors": ["jerjerje"],
+  "version": "1.0.0",
+  "dependencies": {
+    "game": "1.21.6"
+  },
+  "website": "https://mods.vintagestory.at/exchangablejonasparts"
 }
