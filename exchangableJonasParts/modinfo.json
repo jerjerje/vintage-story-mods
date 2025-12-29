@@ -1,6 +1,6 @@
 {
   "type": "content",
-  "modid": "exchangeJonasParts",
+  "modid": "exchangablejonasparts",
   "name": "Exchangable Jonas Parts",
   "description": "Craft unneeded Jonas Parts into other Jonas Parts that are needed!",
   "authors": ["jerjerje"],
