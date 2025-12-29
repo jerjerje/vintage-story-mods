@@ -1,0 +1,77 @@
+[
+  {
+    "ingredientPattern": "HDC,PJP,SRS",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+      "J": { "type": "item", "code": "game:jonasparts-valve01" },
+      "P": { "type": "item", "code": "game:metalplate-cupronickel" },
+      "R": { "type": "item", "code": "game:rod-cupronickel" },
+      "S": { "type": "block", "code": "game:glass-plain" },
+      "D": { "type": "item", "code": "game:gem-diamond-rough" },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 25
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true,
+        "toolDurabilityCost": 25
+      }
+    },
+    "output": { "type": "item", "code": "game:jonasparts-cylinder02" }
+  },
+  {
+    "ingredientPattern": "HDC,RJR,SRS",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+      "J": { "type": "item", "code": "game:jonasparts-cylinder02" },
+      "P": { "type": "item", "code": "game:metalplate-cupronickel" },
+      "R": { "type": "item", "code": "game:rod-cupronickel" },
+      "S": { "type": "block", "code": "game:glass-plain" },
+      "D": { "type": "item", "code": "game:gem-emerald-rough" },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 25
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true,
+        "toolDurabilityCost": 25
+      }
+    },
+    "output": { "type": "item", "code": "game:jonasparts-connector01" }
+  },
+  {
+    "ingredientPattern": "HDC,RJR,SPS",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+      "J": { "type": "item", "code": "game:jonasparts-connector01" },
+      "P": { "type": "item", "code": "game:metalplate-cupronickel" },
+      "R": { "type": "item", "code": "game:rod-cupronickel" },
+      "S": { "type": "block", "code": "game:glass-plain" },
+      "D": { "type": "item", "code": "game:gem-olivine_peridot-rough" },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 25
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true,
+        "toolDurabilityCost": 25
+      }
+    },
+    "output": { "type": "item", "code": "game:jonasparts-valve01" }
+  }
+]

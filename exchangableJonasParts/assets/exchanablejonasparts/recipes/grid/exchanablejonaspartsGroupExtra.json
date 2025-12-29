@@ -1,0 +1,30 @@
+[
+  {
+    "ingredientPattern": "HJC,QMW,PEP",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+      "J": { "type": "item", "code": "game:jonasframes-gearbox01" },
+      "Q": { "type": "item", "code": "game:jonasparts-cylinder01" },
+      "W": { "type": "item", "code": "game:jonasframes-joint01" },
+      "E": { "type": "item", "code": "game:jonasparts-cylinder02" },
+
+      "P": { "type": "item", "code": "game:metalplate-cupronickel" },
+      "R": { "type": "item", "code": "game:rod-cupronickel" },
+      "M": { "type": "block", "code": "game:metal-parts" },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 25
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true,
+        "toolDurabilityCost": 25
+      }
+    },
+    "output": { "type": "item", "code": "game:jonasframes-gearbox02" }
+  }
+]

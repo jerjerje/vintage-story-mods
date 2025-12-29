@@ -1,0 +1,18 @@
+{
+  "code": "gear-cleaned",
+  "sealHours": 24,
+  "ingredients": [
+    {
+      "type": "item",
+      "code": "game:acid-full-sulfuric",
+      "litres": 1,
+      "consumeLitres": 1
+    },
+    { "type": "item", "code": "game:gear-rusty" }
+  ],
+  "output": {
+    "type": "item",
+    "code": "exchanablejonasparts:gear-cleaned",
+    "stackSize": 1
+  }
+}

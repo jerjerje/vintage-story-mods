@@ -1,0 +1,12 @@
+[
+  {
+    "ingredientPattern": "R,S",
+    "ingredients": {
+      "R": { "type": "item", "code": "game:rope" },
+      "S": { "type": "item", "code": "gear-cleaned" }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "clothes-neck-gear-amulet-cleaned" }
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "ingredientPattern": "HDC,PJP,VVV",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+      "J": { "type": "item", "code": "game:jonasparts-tank02" },
+      "P": { "type": "item", "code": "game:metalplate-cupronickel" },
+      "D": { "type": "item", "code": "game:metalplate-electrum" },
+      "V": { "type": "item", "code": "game:metalplate-molybdochalkos" },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 25
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true,
+        "toolDurabilityCost": 25
+      }
+    },
+    "output": { "type": "item", "code": "game:jonasparts-tank01" }
+  },
+  {
+    "ingredientPattern": "HDC,RJR,VSV",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+      "J": { "type": "item", "code": "game:jonasparts-tank01" },
+      "R": { "type": "item", "code": "game:rod-cupronickel" },
+      "D": { "type": "item", "code": "game:metalplate-electrum" },
+      "S": { "type": "item", "code": "game:rod-electrum" },
+      "V": { "type": "item", "code": "game:metalplate-molybdochalkos" },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 25
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true,
+        "toolDurabilityCost": 25
+      }
+    },
+    "output": { "type": "item", "code": "game:jonasparts-cylinder01" }
+  },
+  {
+    "ingredientPattern": "HVC,PJR,SDS",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+      "J": { "type": "item", "code": "game:jonasparts-cylinder01" },
+      "P": { "type": "item", "code": "game:metalplate-cupronickel" },
+      "R": { "type": "item", "code": "game:rod-cupronickel" },
+      "D": { "type": "item", "code": "game:metalplate-electrum" },
+      "S": { "type": "item", "code": "game:rod-electrum" },
+      "V": { "type": "item", "code": "game:metalplate-molybdochalkos" },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 25
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true,
+        "toolDurabilityCost": 25
+      }
+    },
+    "output": { "type": "item", "code": "game:jonasparts-tank02" }
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "ingredientPattern": "HMC,SJS,PIP",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+      "J": { "type": "item", "code": "game:jonasframes-joint01" },
+      "P": { "type": "item", "code": "game:metalplate-cupronickel" },
+      "R": { "type": "item", "code": "game:rod-cupronickel" },
+      "S": { "type": "item", "code": "game:solderbar-*", "quantity": 5 },
+      "M": { "type": "block", "code": "game:metal-parts" },
+      "I": {
+        "type": "item",
+        "code": "game:solderingiron",
+        "isTool": true
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 25
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true,
+        "toolDurabilityCost": 25
+      }
+    },
+    "output": { "type": "item", "code": "game:jonasframes-oscillator01" }
+  },
+  {
+    "ingredientPattern": "HMC,SJS,RIR",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+      "J": { "type": "item", "code": "game:jonasframes-oscillator01" },
+      "P": { "type": "item", "code": "game:metalplate-cupronickel" },
+      "R": { "type": "item", "code": "game:rod-cupronickel" },
+      "S": { "type": "item", "code": "game:solderbar-*", "quantity": 5 },
+      "M": { "type": "block", "code": "game:metal-parts" },
+      "I": {
+        "type": "item",
+        "code": "game:solderingiron",
+        "isTool": true
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 25
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true,
+        "toolDurabilityCost": 25
+      }
+    },
+    "output": { "type": "item", "code": "game:jonasframes-spring01" }
+  },
+  {
+    "ingredientPattern": "HMC,SJS,PIR",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+      "J": { "type": "item", "code": "game:jonasframes-spring01" },
+      "P": { "type": "item", "code": "game:metalplate-cupronickel" },
+      "R": { "type": "item", "code": "game:rod-cupronickel" },
+      "S": { "type": "item", "code": "game:solderbar-*", "quantity": 5 },
+      "M": { "type": "block", "code": "game:metal-parts" },
+      "I": {
+        "type": "item",
+        "code": "game:solderingiron",
+        "isTool": true
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true,
+        "toolDurabilityCost": 25
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true,
+        "toolDurabilityCost": 25
+      }
+    },
+    "output": { "type": "item", "code": "game:jonasframes-joint01" }
+  }
+]
