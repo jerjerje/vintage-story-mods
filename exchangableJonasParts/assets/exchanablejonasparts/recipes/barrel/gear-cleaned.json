@@ -5,8 +5,8 @@
     {
       "type": "item",
       "code": "game:acid-full-sulfuric",
-      "litres": 1,
-      "consumeLitres": 1
+      "litres": 0.5,
+      "consumeLitres": 0.5
     },
     { "type": "item", "code": "game:gear-rusty" }
   ],

@@ -33,7 +33,7 @@
   ],
   "shape": { "base": "item/gear-cleaned" },
   "creativeinventory": { "general": ["*"], "items": ["*"] },
-  "maxstacksize": 64,
+  "maxstacksize": 128,
   "materialDensity": 4000,
   "guiTransform": {
     "translation": { "x": 0, "y": 0, "z": 0 },

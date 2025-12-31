@@ -7,7 +7,11 @@
       "J": { "type": "item", "code": "game:jonasframes-gears02" },
       "P": { "type": "item", "code": "game:metalplate-cupronickel" },
       "R": { "type": "item", "code": "game:rod-cupronickel" },
-      "S": { "type": "item", "code": "exchanablejonasparts:gear-cleaned" },
+      "S": {
+        "type": "item",
+        "code": "exchanablejonasparts:gear-cleaned",
+        "quantity": 2
+      },
       "H": {
         "type": "item",
         "code": "game:hammer-*",
@@ -31,7 +35,11 @@
       "J": { "type": "item", "code": "game:jonasframes-gearbox01" },
       "P": { "type": "item", "code": "game:metalplate-cupronickel" },
       "R": { "type": "item", "code": "game:rod-cupronickel" },
-      "S": { "type": "item", "code": "exchanablejonasparts:gear-cleaned" },
+      "S": {
+        "type": "item",
+        "code": "exchanablejonasparts:gear-cleaned",
+        "quantity": 2
+      },
       "H": {
         "type": "item",
         "code": "game:hammer-*",
@@ -55,7 +63,11 @@
       "J": { "type": "item", "code": "game:jonasframes-gears01" },
       "P": { "type": "item", "code": "game:metalplate-cupronickel" },
       "R": { "type": "item", "code": "game:rod-cupronickel" },
-      "S": { "type": "item", "code": "exchanablejonasparts:gear-cleaned" },
+      "S": {
+        "type": "item",
+        "code": "exchanablejonasparts:gear-cleaned",
+        "quantity": 2
+      },
       "H": {
         "type": "item",
         "code": "game:hammer-*",
