@@ -4,7 +4,7 @@
   "name": "Exchangable Jonas Parts",
   "description": "Craft unneeded Jonas Parts into other Jonas Parts that are needed!",
   "authors": ["jerjerje"],
-  "version": "1.0.0",
+  "version": "1.1.0",
   "dependencies": {
     "game": "1.21.6"
   },
