@@ -13,7 +13,7 @@
     "irontarnished": [8, 4]
   },
   "textures": {
-    "rusty-iron": "game:block/metal/ingot/cupronickel",
+    "rusty-iron": "game:block/metal/ingot/steel",
     "irontarnished": "game:entity/humanoid/seraphclothes/neck/chain/irontarnished"
   },
   "elements": [

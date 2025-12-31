@@ -6,7 +6,7 @@
   "textureWidth": 16,
   "textureHeight": 16,
   "textures": {
-    "main_tex": "game:block/metal/ingot/cupronickel"
+    "main_tex": "game:block/metal/ingot/steel"
   },
   "elements": [
     {
