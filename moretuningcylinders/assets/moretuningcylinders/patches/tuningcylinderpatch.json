@@ -84,6 +84,23 @@
     ]
   },
   {
+    "op": "addeach",
+    "file": "game:blocktypes/clay/lootvessel.json",
+    "path": "/attributes/lootListByType/*-food/1/codes/-",
+    "value": [
+      "tuningcylinder-100",
+      "tuningcylinder-101",
+      "tuningcylinder-102",
+      "tuningcylinder-103",
+      "tuningcylinder-104",
+      "tuningcylinder-105",
+      "tuningcylinder-106",
+      "tuningcylinder-107",
+      "tuningcylinder-108",
+      "tuningcylinder-109"
+    ]
+  },
+  {
     "op": "addmerge",
     "file": "game:itemtypes/tuningcylinder.json",
     "path": "/textures/colorByType/*-100",
