@@ -1,0 +1,226 @@
+[
+  {
+    "op": "addeach",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/variantgroups/0/states/-",
+    "value": [
+      "100",
+      "101",
+      "102",
+      "103",
+      "104",
+      "105",
+      "106",
+      "107",
+      "108",
+      "109"
+    ]
+  },
+  {
+    "op": "addeach",
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "path": "/attributesByType/*-tuningcylinder/stacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "tuningcylinder-100",
+        "quantity": { "avg": 1, "var": 0 },
+        "chance": 1
+      },
+      {
+        "type": "item",
+        "code": "tuningcylinder-101",
+        "quantity": { "avg": 1, "var": 0 },
+        "chance": 1
+      },
+      {
+        "type": "item",
+        "code": "tuningcylinder-102",
+        "quantity": { "avg": 1, "var": 0 },
+        "chance": 1
+      },
+      {
+        "type": "item",
+        "code": "tuningcylinder-103",
+        "quantity": { "avg": 1, "var": 0 },
+        "chance": 1
+      },
+      {
+        "type": "item",
+        "code": "tuningcylinder-104",
+        "quantity": { "avg": 1, "var": 0 },
+        "chance": 1
+      },
+      {
+        "type": "item",
+        "code": "tuningcylinder-105",
+        "quantity": { "avg": 1, "var": 0 },
+        "chance": 1
+      },
+      {
+        "type": "item",
+        "code": "tuningcylinder-106",
+        "quantity": { "avg": 1, "var": 0 },
+        "chance": 1
+      },
+      {
+        "type": "item",
+        "code": "tuningcylinder-107",
+        "quantity": { "avg": 1, "var": 0 },
+        "chance": 1
+      },
+      {
+        "type": "item",
+        "code": "tuningcylinder-108",
+        "quantity": { "avg": 1, "var": 0 },
+        "chance": 1
+      },
+      {
+        "type": "item",
+        "code": "tuningcylinder-109",
+        "quantity": { "avg": 1, "var": 0 },
+        "chance": 1
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-100",
+    "value": {
+      "base": "block/creative/col40"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-100",
+    "value": "music/groove.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-101",
+    "value": {
+      "base": "block/creative/col45"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-101",
+    "value": "music/adventuring.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-102",
+    "value": {
+      "base": "block/creative/col18"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-102",
+    "value": "music/midnight.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-103",
+    "value": {
+      "base": "block/creative/col4"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-103",
+    "value": "music/daylight.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-104",
+    "value": {
+      "base": "block/creative/col60"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-104",
+    "value": "music/heartbeat-survive.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-105",
+    "value": {
+      "base": "block/creative/col72"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-105",
+    "value": "music/radianceandrust.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-106",
+    "value": {
+      "base": "block/creative/col47"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-106",
+    "value": "music/mirror.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-107",
+    "value": {
+      "base": "block/creative/col35"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-107",
+    "value": "music/safety-of-a-warm-fire.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-108",
+    "value": {
+      "base": "block/creative/col6"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-108",
+    "value": "music/setting-sun.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-109",
+    "value": {
+      "base": "block/creative/col30"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-109",
+    "value": "music/to-dawn.ogg"
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "ingredientPattern": "KC",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-generic-*",
+        "isTool": true,
+        "toolDurabilityCost": 25,
+        "allowedVariants": [
+          "tinbronze",
+          "bismuthbronze",
+          "blackbronze",
+          "iron",
+          "meteoriciron",
+          "steel"
+        ]
+      },
+      "C": { "type": "item", "code": "game:tuningcylinder-*" }
+    },
+    "shapeless": true,
+    "width": 2,
+    "height": 1,
+    "output": { "type": "item", "code": "empty-tuningcylinder" }
+  },
+  {
+    "ingredientPattern": "UC",
+    "ingredients": {
+      "U": { "type": "item", "code": "empty-tuningcylinder" },
+      "C": {
+        "type": "item",
+        "code": "game:tuningcylinder-*",
+        "name": "id",
+        "returnedStack": {
+          "type": "item",
+          "code": "game:tuningcylinder-{id}"
+        }
+      }
+    },
+    "shapeless": true,
+    "width": 2,
+    "height": 1,
+    "output": { "type": "item", "code": "game:tuningcylinder-{id}" }
+  }
+]
