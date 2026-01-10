@@ -1,0 +1,174 @@
+[
+  {
+    "op": "addeach",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/variantgroups/0/states/-",
+    "value": [
+      "resonance-archives-01",
+      "resonance-archives-02",
+      "nadiya-01",
+      "nadiya-02",
+      "nadiya-03",
+      "nadiya-04",
+      "nadiya-05",
+      "nadiya-06",
+      "nadiya-07",
+      "devastation-01",
+      "tobiascave-01"
+    ]
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-resonance-archives-01",
+    "value": {
+      "base": "moretuningcylinders:block/tuningcylindertops/col22+65"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-resonance-archives-01",
+    "value": "music/theresonancearchives-eidolon.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-resonance-archives-02",
+    "value": {
+      "base": "moretuningcylinders:block/tuningcylindertops/col42+47"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-resonance-archives-02",
+    "value": "music/theresonancearchives-library.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-nadiya-01",
+    "value": {
+      "base": "moretuningcylinders:block/tuningcylindertops/col59+56"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-nadiya-01",
+    "value": "music/substitute-epitaph.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-nadiya-02",
+    "value": {
+      "base": "moretuningcylinders:block/tuningcylindertops/col36+4"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-nadiya-02",
+    "value": "music/windy-village.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-nadiya-03",
+    "value": {
+      "base": "moretuningcylinders:block/tuningcylindertops/col76+48"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-nadiya-03",
+    "value": "music/chilly-village.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-nadiya-04",
+    "value": {
+      "base": "moretuningcylinders:block/tuningcylindertops/col37+42"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-nadiya-04",
+    "value": "moretuningcylinders:music/nadiya-spring.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-nadiya-05",
+    "value": {
+      "base": "moretuningcylinders:block/tuningcylindertops/col38+36"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-nadiya-05",
+    "value": "moretuningcylinders:music/nadiya-summer.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-nadiya-06",
+    "value": {
+      "base": "moretuningcylinders:block/tuningcylindertops/col35+32"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-nadiya-06",
+    "value": "moretuningcylinders:music/nadiya-fall.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-nadiya-07",
+    "value": {
+      "base": "moretuningcylinders:block/tuningcylindertops/col76+22"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-nadiya-07",
+    "value": "moretuningcylinders:music/nadiya-winter.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-devastation-01",
+    "value": {
+      "base": "moretuningcylinders:block/tuningcylindertops/col68+65"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-devastation-01",
+    "value": "moretuningcylinders:music/devastation.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-tobiascave-01",
+    "value": {
+      "base": "moretuningcylinders:block/tuningcylindertops/col24+22"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-tobiascave-01",
+    "value": "music/tobias.ogg"
+  }
+]

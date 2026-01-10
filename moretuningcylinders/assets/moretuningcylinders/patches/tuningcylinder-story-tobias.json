@@ -1,0 +1,147 @@
+[
+  {
+    "op": "addeach",
+    "file": "game:config/dialogue/tobias.json",
+    "path": "/components/30/text/-",
+    "value": [
+      {
+        "value": "dialogue-tobias-ask-tuningcylinder",
+        "jumpTo": "tuningcylinder-response",
+        "condition": { "variable": "player.gavelens", "isValue": "true" }
+      }
+    ]
+  },
+  {
+    "op": "addeach",
+    "file": "game:config/dialogue/tobias.json",
+    "path": "/components/-",
+    "value": [
+      {
+        "code": "tuningcylinder-response",
+        "owner": "tobias",
+        "type": "talk",
+        "text": [
+          {
+            "value": "dialogue-tobias-tuningcylinder-response"
+          }
+        ],
+        "jumpTo": "tuningcylinder-selection"
+      },
+      {
+        "code": "tuningcylinder-selection",
+        "owner": "player",
+        "type": "talk",
+        "text": [
+          {
+            "value": "dialogue-tobias-no-unattuned-cylinder",
+            "jumpTo": "tuningcylinder-no-unattuned",
+            "condition": {
+              "variable": "player.inventory",
+              "isNotValue": "{type: 'item', code: 'moretuningcylinders:empty-tuningcylinder'}"
+            }
+          },
+          {
+            "value": "dialogue-tobias-tuningcylinder-devastation-01",
+            "jumpTo": "give-devastation-01-trigger",
+            "condition": {
+              "variable": "player.inventory",
+              "isValue": "{type: 'item', code: 'moretuningcylinders:empty-tuningcylinder'}"
+            }
+          },
+          {
+            "value": "dialogue-tobias-tuningcylinder-tobiascave-01",
+            "jumpTo": "give-tobiascave-01-trigger",
+            "condition": {
+              "variable": "player.inventory",
+              "isValue": "{type: 'item', code: 'moretuningcylinders:empty-tuningcylinder'}"
+            }
+          },
+          {
+            "value": "dialogue-tobias-dont-want-tuningcylinder",
+            "jumpTo": "dont-want-tuningcylinder",
+            "condition": {
+              "variable": "player.inventory",
+              "isValue": "{type: 'item', code: 'moretuningcylinders:empty-tuningcylinder'}"
+            }
+          }
+        ]
+      },
+      {
+        "code": "tuningcylinder-no-unattuned",
+        "owner": "tobias",
+        "type": "talk",
+        "text": [
+          {
+            "value": "dialogue-tobias-no-unattuned"
+          }
+        ],
+        "jumpTo": "main"
+      },
+      {
+        "code": "give-devastation-01-trigger",
+        "type": "trigger",
+        "trigger": "takefrominventory",
+        "triggerdata": {
+          "type": "item",
+          "code": "moretuningcylinders:empty-tuningcylinder"
+        },
+        "jumpTo": "tuningcylinder-give-devastation-01"
+      },
+      {
+        "code": "tuningcylinder-give-devastation-01",
+        "owner": "tobias",
+        "type": "talk",
+        "trigger": "giveitemstack",
+        "triggerdata": {
+          "type": "item",
+          "code": "tuningcylinder-devastation-01",
+          "stacksize": 1
+        },
+        "text": [
+          {
+            "value": "dialogue-tobias-tuningcylinder-give-devastation-01"
+          }
+        ],
+        "jumpTo": "main"
+      },
+      {
+        "code": "give-tobiascave-01-trigger",
+        "type": "trigger",
+        "trigger": "takefrominventory",
+        "triggerdata": {
+          "type": "item",
+          "code": "moretuningcylinders:empty-tuningcylinder"
+        },
+        "jumpTo": "tuningcylinder-give-tobiascave-01"
+      },
+      {
+        "code": "tuningcylinder-give-tobiascave-01",
+        "owner": "tobias",
+        "type": "talk",
+        "trigger": "giveitemstack",
+        "triggerdata": {
+          "type": "item",
+          "code": "tuningcylinder-tobiascave-01",
+          "stacksize": 1
+        },
+        "text": [
+          {
+            "value": "dialogue-tobias-tuningcylinder-give-tobiascave-01"
+          }
+        ],
+        "jumpTo": "main"
+      },
+      {
+        "code": "dont-want-tuningcylinder",
+        "owner": "tobias",
+        "type": "talk",
+        "text": [
+          {
+            "value": "dialogue-tobias-dont-want-tuningcylinder-response"
+          }
+        ],
+        "jumpTo": "main"
+      }
+    ]
+  }
+]

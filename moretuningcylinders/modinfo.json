@@ -4,9 +4,9 @@
   "name": "More Tuning Cylinders",
   "description": "Adds more Tuning Cylinders using only the vanilla soundtrack",
   "authors": ["jerjerje"],
-  "version": "1.0.0",
+  "version": "2.0.0",
   "dependencies": {
     "game": "1.21.6"
   },
-  "website": ""
+  "website": "https://mods.vintagestory.at/moretuningcylinders"
 }

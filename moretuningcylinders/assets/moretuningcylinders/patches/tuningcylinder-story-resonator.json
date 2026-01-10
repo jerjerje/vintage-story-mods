@@ -1,0 +1,128 @@
+[
+  {
+    "op": "addeach",
+    "file": "game:config/dialogue/resonator.json",
+    "path": "/components/1/text/-",
+    "value": [
+      {
+        "value": "dialogue-resonator-ask-tuningcylinder",
+        "jumpTo": "tuningcylinder-response",
+        "condition": {
+          "variable": "player.heardalchemistlocations",
+          "isValue": "true"
+        }
+      }
+    ]
+  },
+  {
+    "op": "addeach",
+    "file": "game:config/dialogue/resonator.json",
+    "path": "/components/-",
+    "value": [
+      {
+        "code": "tuningcylinder-response",
+        "owner": "resonator",
+        "type": "talk",
+        "text": [
+          {
+            "value": "dialogue-resonator-tuningcylinder-response"
+          }
+        ],
+        "jumpTo": "tuningcylinder-selection"
+      },
+      {
+        "code": "tuningcylinder-selection",
+        "owner": "player",
+        "type": "talk",
+        "text": [
+          {
+            "value": "dialogue-resonator-no-unattuned-cylinder",
+            "jumpTo": "main",
+            "condition": {
+              "variable": "player.inventory",
+              "isNotValue": "{type: 'item', code: 'moretuningcylinders:empty-tuningcylinder'}"
+            }
+          },
+          {
+            "value": "dialogue-resonator-tuningcylinder-resonance-archives-01",
+            "jumpTo": "give-resonance-archives-01-trigger",
+            "condition": {
+              "variable": "player.inventory",
+              "isValue": "{type: 'item', code: 'moretuningcylinders:empty-tuningcylinder'}"
+            }
+          },
+          {
+            "value": "dialogue-resonator-tuningcylinder-resonance-archives-02",
+            "jumpTo": "give-resonance-archives-02-trigger",
+            "condition": {
+              "variable": "player.inventory",
+              "isValue": "{type: 'item', code: 'moretuningcylinders:empty-tuningcylinder'}"
+            }
+          },
+          {
+            "value": "dialogue-resonator-dont-want-tuningcylinder",
+            "jumpTo": "main",
+            "condition": {
+              "variable": "player.inventory",
+              "isValue": "{type: 'item', code: 'moretuningcylinders:empty-tuningcylinder'}"
+            }
+          }
+        ]
+      },
+      {
+        "code": "give-resonance-archives-01-trigger",
+        "type": "trigger",
+        "trigger": "takefrominventory",
+        "triggerdata": {
+          "type": "item",
+          "code": "moretuningcylinders:empty-tuningcylinder"
+        },
+        "jumpTo": "tuningcylinder-give-resonance-archives-01"
+      },
+      {
+        "code": "tuningcylinder-give-resonance-archives-01",
+        "owner": "resonator",
+        "type": "talk",
+        "trigger": "giveitemstack",
+        "triggerdata": {
+          "type": "item",
+          "code": "tuningcylinder-resonance-archives-01",
+          "stacksize": 1
+        },
+        "text": [
+          {
+            "value": "dialogue-resonator-tuningcylinder-give-resonance-archives-01"
+          }
+        ],
+        "jumpTo": "main"
+      },
+      {
+        "code": "give-resonance-archives-02-trigger",
+        "type": "trigger",
+        "trigger": "takefrominventory",
+        "triggerdata": {
+          "type": "item",
+          "code": "moretuningcylinders:empty-tuningcylinder"
+        },
+        "jumpTo": "tuningcylinder-give-resonance-archives-02"
+      },
+      {
+        "code": "tuningcylinder-give-resonance-archives-02",
+        "owner": "resonator",
+        "type": "talk",
+        "trigger": "giveitemstack",
+        "triggerdata": {
+          "type": "item",
+          "code": "tuningcylinder-resonance-archives-02",
+          "stacksize": 1
+        },
+        "text": [
+          {
+            "value": "dialogue-resonator-tuningcylinder-give-resonance-archives-02"
+          }
+        ],
+        "jumpTo": "main"
+      }
+    ]
+  }
+]
