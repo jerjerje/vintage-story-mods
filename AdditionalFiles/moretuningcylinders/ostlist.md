@@ -41,3 +41,5 @@
 | 39  | Nadiya (Summer)                       | Story           |                                                            |
 | 40  | Nadiya (Fall)                         | Story           |                                                            |
 | 41  | Nadiya (Winter)                       | Story           |                                                            |
+| x   | Substitute For An Epitaph             | Story           | Not technically part of the OST                            |
+| x   | The Safety of a Warm Fire             | Normal          | Not technically part of the OST                            |
