@@ -13,7 +13,12 @@
       "106",
       "107",
       "108",
-      "109"
+      "109",
+      "110",
+      "111",
+      "112",
+      "113",
+      "114"
     ]
   },
   {
@@ -80,6 +85,36 @@
         "code": "tuningcylinder-109",
         "quantity": { "avg": 1, "var": 0 },
         "chance": 1
+      },
+      {
+        "type": "item",
+        "code": "tuningcylinder-110",
+        "quantity": { "avg": 1, "var": 0 },
+        "chance": 1
+      },
+      {
+        "type": "item",
+        "code": "tuningcylinder-111",
+        "quantity": { "avg": 1, "var": 0 },
+        "chance": 1
+      },
+      {
+        "type": "item",
+        "code": "tuningcylinder-112",
+        "quantity": { "avg": 1, "var": 0 },
+        "chance": 1
+      },
+      {
+        "type": "item",
+        "code": "tuningcylinder-113",
+        "quantity": { "avg": 1, "var": 0 },
+        "chance": 1
+      },
+      {
+        "type": "item",
+        "code": "tuningcylinder-114",
+        "quantity": { "avg": 1, "var": 0 },
+        "chance": 1
       }
     ]
   },
@@ -97,7 +132,12 @@
       "tuningcylinder-106",
       "tuningcylinder-107",
       "tuningcylinder-108",
-      "tuningcylinder-109"
+      "tuningcylinder-109",
+      "tuningcylinder-110",
+      "tuningcylinder-111",
+      "tuningcylinder-112",
+      "tuningcylinder-113",
+      "tuningcylinder-114"
     ]
   },
   {
@@ -239,5 +279,75 @@
     "file": "game:itemtypes/tuningcylinder.json",
     "path": "/attributes/musicTrackByType/*-109",
     "value": "music/to-dawn.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-110",
+    "value": {
+      "base": "moretuningcylinders:block/tuningcylindertops/col10-washed"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-110",
+    "value": "music/night-to-day.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-111",
+    "value": {
+      "base": "moretuningcylinders:block/tuningcylindertops/col0-washed"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-111",
+    "value": "music/nostalgic.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-112",
+    "value": {
+      "base": "moretuningcylinders:block/tuningcylindertops/col36-washed"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-112",
+    "value": "music/roots.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-113",
+    "value": {
+      "base": "moretuningcylinders:block/tuningcylindertops/col18-washed"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-113",
+    "value": "music/building.ogg"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/textures/colorByType/*-114",
+    "value": {
+      "base": "moretuningcylinders:block/tuningcylindertops/col55-washed"
+    }
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/tuningcylinder.json",
+    "path": "/attributes/musicTrackByType/*-114",
+    "value": "music/creating.ogg"
   }
 ]
