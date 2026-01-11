@@ -9,8 +9,8 @@
 | 7   | Through the Grass at Night            | Vanilla         |                                                            |
 | 8   | Adventuring                           | Normal          |                                                            |
 | 9   | To Dawn, from a Very Rainy Night      | Normal          |                                                            |
-| 10  | Building                              |                 |                                                            |
-| 11  | Creating                              |                 |                                                            |
+| 10  | Building                              | Normal          |                                                            |
+| 11  | Creating                              | Normal          |                                                            |
 | 12  | Peaceful Village                      | Vanilla         |                                                            |
 | 13  | Nostalgic                             | Normal          |                                                            |
 | 14  | Midnight                              | Normal          |                                                            |
